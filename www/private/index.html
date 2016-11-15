@@ -1,0 +1,32 @@
+<html> 
+<head> 
+ <link rel=stylesheet type=text/css href=/vesta.css>
+<script language="JavaScript" src="/ctlpanel.js"></script>
+<script language="JavaScript">
+  var nfcs_port = 7280;
+  var refresh_delay = 250;
+  var widget_src = "ctlpanel.txt"
+</script>
+</head> 
+<body id=MyBody onload="initwidgets()" bgcolor=darkblue> 
+<table style="min-width:900px" bgcolor=darkblue cellpadding=0 border=0 cellspacing=0>
+<tr><td style=font-size:large;font-family:Times;color:lightblue;font-weight:bold; colspan=12 valign=top>VESTA Web Interface</td>
+<td class=normal height=25 colspan=12 align=right valign=top><div id=myTime style="color:lightblue;font-weight:bold"></div></td></tr>
+<tr>
+<td align=right><img src=/images/tab-psv-left.gif></td><td align=center background=/images/tab-psv-ctr.gif><a class=bigtab href=/cgi-bin/vestaHomepage>Home</a></td><td><img src=/images/tab-psv-right.gif></td>
+<td align=right><img src=/images/tab-psv-left.gif></td><td align=center background=/images/tab-psv-ctr.gif><a class=bigtab href=/public/svg_chart.html>Charts</a></td><td><img src=/images/tab-psv-right.gif></td>
+<td align=right><img src=/images/tab-act-left.gif></td><td align=center background=/images/tab-act-ctr.gif><a class=bigtabblk href=/public/index.html>GUI</a></td><td><img src=/images/tab-act-right.gif></td>
+<td align=right><img src=/images/tab-psv-left.gif></td><td align=center background=/images/tab-psv-ctr.gif><a class=bigtab href=/cgi-bin/private/vestaPhysicalEdit?editmode=p&view=physical>Physical I/O</a></td><td><img src=/images/tab-psv-right.gif></td>
+<td align=right><img src=/images/tab-psv-left.gif></td><td align=center background=/images/tab-psv-ctr.gif><a class=bigtab href=/cgi-bin/private/vestaWebEdit?editmode=e&view=element>Data Elements</a></td><td><img src=/images/tab-psv-right.gif></td>
+<td align=right><img src=/images/tab-psv-left.gif></td><td align=center background=/images/tab-psv-ctr.gif><a class=bigtab href=/cgi-bin/private/vestaWebEdit?editmode=r&view=rule>Rules</a></td><td><img src=/images/tab-psv-right.gif></td>
+<td align=right><img src=/images/tab-psv-left.gif></td><td align=center background=/images/tab-psv-ctr.gif><a class=bigtab href=/cgi-bin/private/vestaWebEdit?editmode=r&view=logs>Logs</a></td><td><img src=/images/tab-psv-right.gif></td>
+<td align=right><img src=/images/tab-psv-left.gif></td><td align=center background=/images/tab-psv-ctr.gif><a class=bigtab href=/cgi-bin/private/vestaWebEdit?view=system>System</a></td></td><td><img src=/images/tab-psv-right.gif></td>
+</tr></table>
+<table cellpadding=0 cellspacing=0><tr><td background=/images/metal_bg2.jpg><div id=MyDiv style="position: relative; top: 0; left: 0;"><img id=MyImage width=1024 height=1024 src=/images/pxclear.gif ></div> 
+</td></tr></table>
+
+
+
+
+</body> 
+</html>

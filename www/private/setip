@@ -1,0 +1,2 @@
+export IP=`cat ../internalip`
+sed s/192.168.1.8/$IP/ <template.html >index.html

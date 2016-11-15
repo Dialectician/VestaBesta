@@ -1,0 +1,41 @@
+option.blue {background-color: lightblue;}
+option.green {background-color: lightgreen;}
+option.yellow {background-color: yellow;}
+option.grey {background-color: lightgrey;}
+
+input.minimal {border-width: 1px 1px 1px 1px; margin-top: 0px; margin-bottom: 0px; margin-left: 1px; margin-right: 1px; }
+
+TD { font-size: small; font-family: Arial; }
+TD.normal { font-size: medium; font-family: Times; }
+TD.nopad { padding: 0px 0px 0px 0px; vertical-align: middle;}
+TD.smallpad { padding: 0px 5px 1px 5px; vertical-align: middle;}
+TD.xsmallpad { font-size: x-small;  padding: 0px 5px 1px 5px;}
+TD.xsmall { font-size: x-small; padding: 0px 0px 0px 0px; }
+TD.boldblue { font-weight: bold; font-style: italic; color: blue;}
+TD.bigboldblue { font-size: large; font-weight: bold; font-style: italic; color: blue;}
+ 
+A.framed:link { border-style: solid;  border-width: 1px; padding: 5px;}
+A.framed:visited { border-style: solid;  border-width: 1px; padding: 2px;}
+
+A.bigtab { font-size: small; font-family: Arial; font-weight: bold; text-decoration: none; color: white;}
+A.bigtabblk { font-size: small; font-family: Arial; font-weight: bold; text-decoration: none; color: darkblue;}
+
+A.tab:link { font-size: small; font-family: Arial; font-weight: bold; text-decoration: none; color: blue;}
+A.tab:visited { font-size: small; font-family: Arial; font-weight: bold; text-decoration: none; color: blue;}
+
+TABLE.cust { border-style: solid; border-color: blue; border-width: 2px; }
+TABLE.framed { border-style: solid; border-color: black; border-width: 1px; }
+TABLE.tab-bar {border-width: 1px 1px 0px 1px; padding: 0px 1px 0px 1px; border-collapse: collapse; border-bottom: hidden; }
+TABLE.tab-body { border-style: outset; border-color: black; border-width: 0px 3px 3px 3px; }
+
+TD.spaced { padding: 1px 4px 1px 4px;}
+TD.ul { border-bottom: solid; border-color: black; border-width: 0px 0px 1px 0px; padding: 2px 5px 2px 5px; }
+TD.tab { text-align: center; padding: 2px 2px 4px 2px; border-color: black; border-right: solid; border-top: outset; border-left: outset; border-width: 2px 1px 0px 4px;}
+
+TD.tab-right { text-align: center; padding: 2px 2px 10px 2px; border-color: grey; border-right: solid; border-top: outset; border-left: outset; border-width: 2px 1px 0px 4px;}
+
+TD.padded { padding: 0px 5px 1px 5px; }
+TH.padded { font-size: small; font-weight: bold; padding: 0px 5px 1px 5px; }
+TD.allpadded { padding: 5px 5px 5px 5px; }
+TD.framed { border-style: solid; border-color: blue; border-width: 1px;  padding: 0px 5px 1px 5px; }
+

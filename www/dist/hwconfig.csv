@@ -1,0 +1,15 @@
+"Name","Handler","channel_type","channels","io_per_channel"
+1,"TS9700 Analog In",1,1,0,"analog_in",8,1
+2,"TS9700 Analog Out",1,2,0,"analog_out",4,1
+3,"TS9700 Analog In",1,1,1,"analog_in",8,1
+4,"TS9700 Analog Out",1,2,1,"analog_out",4,1
+5,"DIO64 Discrete In",1,3,0,"discrete_in",4,8
+6,"DIO64 Discrete Out",1,4,0,"discrete_out",4,8
+7,"1 Wire Temp Sensors",6,5,0,"analog_in",8,1
+8,"Analog in from net",8,6,0,"net_ai",2,1
+9,"Analog out from net",8,7,0,"net_ao",2,1
+8,"Discrete in from net",8,8,0,"net_di",2,1
+9,"Discrete out from net",8,9,0,"net_do",2,1
+10,"Variable from net",8,10,0,"net_v",2,1
+11,"Variables",0,0,0,"variable",80,1
+
